@@ -1,0 +1,21 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+
+{% if url_parts_size == 3 and url_parts[1] == include.folder %}
+<a class="mdl-navigation__link" href="{{site.baseurl}}/{{include.folder}}/index.html"><strong>{{ include.category }}</strong> </a>
+{% else %}
+<a class="mdl-navigation__link" href="{{site.baseurl}}/{{include.folder}}/index.html">{{ include.category }} </a>
+{% endif %}
+
+{% if url_parts_size > 1 and url_parts[1] == include.folder %}
+    {% assign allposts = (site.categories[include.category]| where: "layout" , "nav_menu_item") %}
+    {% for node in allposts %}
+        {% assign node_parts = (node.url | split: '/') %}
+        {% assign node_parts_size = node_parts | size %}
+        {% if url_parts_size > 2 and url_parts[2] == node_parts[2] %}
+            <a class="mdl-navigation__link" href="{{ site.baseurl }}{{ node.url }}"> <strong>- {{ node.title }}</strong> </a>
+        {% else %}
+            <a class="mdl-navigation__link" href="{{ site.baseurl }}{{ node.url }}"> - {{ node.title }} </a>
+        {% endif %}
+    {% endfor %}
+{% endif %}

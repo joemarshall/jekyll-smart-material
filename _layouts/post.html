@@ -1,12 +1,55 @@
 ---
 layout: default
 ---
+{% assign categories_flat = page.categories | join: ',' %}
+
 <div class="post mdl-shadow--2dp">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
   <article class="post-content">
-    {{ content }}
+    {{ content | figuremaker }}
+    
+      {% if categories_flat contains "Projects" %}{% else %}<p><br/>Related themes: 
+      {% for c in page.categories %}
+      {% assign categorypost = site.tags[c] | first %}
+      <a href="{{ categorypost.url }}">{{ categorypost.title }}</a>,
+      {% endfor %}{% endif %}
+
+    
   </article>
+  {% if categories_flat contains "Projects" %}
+                      {% comment %}
+                        This is a project summary page, put the things from the project below it
+                      {% endcomment %}
+  {% for c in page.categories %}
+      {% if c != "Projects" %}
+        {% assign this_cat = c %}
+      {% endif %}
+    {% endfor %}
+
+
+      <p><h1 class="post-title">Also in {{this_cat}} project</h1></p>
+  <div class="mdl-grid">
+    {% assign mainposts = (site.categories[this_cat]| where: "layout" , "post") %}
+    {% for post in mainposts %}
+        {% if post.url != page.url %}
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+                  <div class="post-card__fade"></div>
+                  <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+                    <h2 \br\br /h2>
+                    <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">{{ post.title }}</h2>
+                  </div>
+                </div>
+              </a>
+          </div>
+        {%endif %}
+    {% endfor %}
+    </div>
+  {% endif %}
+  
+  
 </div>

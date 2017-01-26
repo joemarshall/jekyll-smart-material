@@ -1,10 +1,10 @@
 # Site settings
-title: Smart Material Theme
-email: your-email@domain.com
+title: Joe Marshall - Human Computer Interaction Research
+email: joe.marshall@nottingham.ac.uk
 description: Slick Material Design theme for Jekyll powered by Material Design Lite.
-baseurl: "/jekyll-smart-material" # the subpath of your site, e.g. /blog/
-url: "http://ssokurenko.github.io" # the base hostname & protocol for your site
-copyright: '&copy; 2015-2016 Smart Material Theme'
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+copyright: 
 
 # Build settings
 markdown: kramdown
@@ -15,3 +15,12 @@ material_theme: blue-deep_orange
 # Google Analytics account ID (UA-XXXXXXXX-X)
 
 google-analytics-ua: UA-84475574-1
+keep_files: ["uploads"]
+
+permalink: /:year/:month/:day/:title.html
+
+collections:
+    pubs:
+        output: true
+        path: ../_posts
+        permalink: /awesome/:path/:title.:output_ext

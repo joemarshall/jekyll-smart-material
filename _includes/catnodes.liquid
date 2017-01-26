@@ -1,0 +1,18 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+
+{% if url_parts_size > 1 and url_parts[1] == include.folder %}
+<a class="mdl-navigation__link" href="{{site.baseurl}}/{{include.folder}}/index.html"><strong>{{ include.category }}</strong> </a>
+{% else %}
+<a class="mdl-navigation__link" href="{{site.baseurl}}/{{include.folder}}/index.html">{{ include.category }} </a>
+{% endif %}
+
+{% comment %}
+{% if url_parts_size > 1 and url_parts[1] == include.folder %}
+    {% assign allposts = (site.categories[include.category]| where: "layout" , "post") %}
+    {% for node in allposts %}
+        {% assign nodename = (node.url | split: '/')|last %}
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/{{ include.category }}/{{ nodename }}"> -- {{ node.title }} </a>
+    {% endfor %}
+{% endif %}
+{% endcomment %}

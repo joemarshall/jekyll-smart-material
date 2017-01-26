@@ -1,11 +1,24 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+
+
 <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Left Menu</span>
+    <span class="mdl-layout-title">&nbsp;<br/></span>
     <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Home</a>
-        {% for page in site.pages %}
-        {% if page.title %}
-        <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
+    {% if url_parts_size <=1  %}
+            <a class="mdl-navigation__link" href="{{ site.baseurl }}/"><strong>Home</strong></a>
+    {% else %}
+            <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Home</a>
+    {% endif %}
+    {% include projectnodes.liquid category="Projects" folder="projects" %}
+    {% include catnodes.liquid category="Publications" folder="publications" %}
+    {% include catnodes.liquid category="Performances" folder="performances" %}
+    {% include catnodes.liquid category="Games" folder="games" %}
+    {% include catnodes.liquid category="Hardware and Software" folder="software" %}
+    {% if page.url contains "about/index.html" %}
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/about/index.html"><strong>About</strong></a>
+    {% else %}
+    <a class="mdl-navigation__link" href="{{ site.baseurl }}/about/index.html">About</a>
+    {% endif %}
     </nav>
 </div>

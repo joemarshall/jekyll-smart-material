@@ -4,3 +4,16 @@
   margin: $spacing-unit/2 0 $spacing-unit/2 0;
 }
 
+.post figure
+{
+display:table;
+width:0;
+}
+
+.post figcaption
+{
+    display: table-caption;
+    caption-side: bottom;
+    background-color: #b3d4fc;
+    font-weight:bold;
+}

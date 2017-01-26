@@ -1,0 +1,86 @@
+---
+layout: default
+---
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+
+<header class="post-header">
+<p><h1 class="post-title">{{ page.title }}</h1></p>
+</header>
+<article class="post-content">
+{{ content }}
+</article>
+<div class="mdl-grid">
+{% assign mainposts = (site.categories[page.tag]| where: "layout" , "post") %}
+    {% if page.url contains "/projects/" %}
+                {% comment %}
+                In project sub pages, the project summary page always comes first
+                {% endcomment %}
+      {% assign summaryurl = "" %}
+      {% if url_parts_size >= 4 %}
+        {% for post in mainposts %}
+            {% assign categories_flat = post.categories | join: ',' %}
+            {% if categories_flat contains "Projects" %}
+              {% assign summaryurl = post.url %}
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone post-block">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+                      <div class="post-card__fade"></div>
+                      <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+                        <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">Project Summary - {{ post.title }}</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>              
+            {% endif %}        
+          {% endfor %}
+          {% for post in mainposts %}
+            {% if summaryurl != post.url %}
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+                      <div class="post-card__fade"></div>
+                      <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+                        <h2 \br\br /h2>
+                        <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">{{ post.title }}</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+            {% endif %}
+          {% endfor %}
+      {% else %}
+        {% assign navposts = (site.categories[page.tag]| where: "layout" , "nav_menu_item") %}
+          {% for post in navposts %}
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+                      <div class="post-card__fade"></div>
+                      <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+                        <h2 \br\br /h2>
+                        <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">{{ post.title }}</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+          {% endfor %}
+      {% endif %}     
+    {% else %}
+      {% for post in mainposts %}
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
+            {% assign post_url_parts = post.url | split: '/' %}
+            {% assign post_url_parts_size = post_url_parts | size %}
+            {% assign post_name = post_url_parts | last %}
+            <a href="{{ site.baseurl }}/{{ page.folder }}/{{ post_name }}">
+            <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+              <div class="post-card__fade"></div>
+              <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+                <h2 \br\br /h2>
+                <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">{{ post.title }}</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    {% endif %}
+</div>
