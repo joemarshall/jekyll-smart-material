@@ -9,7 +9,7 @@ categories: [Magic]
 tags: []
 image: /uploads/2008/12/setup-hidden.jpg
 ---
-[![]({{ site.url }}/uploads/2008/12/setup-hidden-300x240.jpg "setup-hidden")]({{ site.url }}/uploads/2008/12/setup-hidden.jpg)[![]({{ site.url }}/uploads/2008/12/setup-front-300x240.jpg "setup-front")]({{ site.url }}/uploads/2008/12/setup-front.jpg)
+[![]({{ site.baseurl }}/uploads/2008/12/setup-hidden-300x240.jpg "setup-hidden")]({{ site.baseurl }}/uploads/2008/12/setup-hidden.jpg)[![]({{ site.baseurl }}/uploads/2008/12/setup-front-300x240.jpg "setup-front")]({{ site.baseurl }}/uploads/2008/12/setup-front.jpg)
 
 The Cup Table has two possible states, in which technology is respectively hidden and revealed.
 

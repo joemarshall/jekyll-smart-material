@@ -9,9 +9,9 @@ categories: [Magic, Performances]
 tags: []
 image: /uploads/2008/12/setup-front.jpg
 ---
-[![]({{ site.url }}/uploads/2008/12/setup-front-300x240.jpg "setup-front")]({{ site.url }}/uploads/2008/12/setup-front.jpg)
+[![]({{ site.baseurl }}/uploads/2008/12/setup-front-300x240.jpg "setup-front")]({{ site.baseurl }}/uploads/2008/12/setup-front.jpg)
 
-The [cup game]({{ site.url }}{% post_url 2008-07-01-the-cup-game %}) performance was designed in an iterative process by running it on people in the Mixed Reality Lab.
+The [cup game]({{ site.baseurl }}{% post_url 2008-07-01-the-cup-game %}) performance was designed in an iterative process by running it on people in the Mixed Reality Lab.
 
 This process was run for 10 people in total, until the performance and the technology had not had any major changes for the last 5 iterations. This also allowed me to get better at tricking people, and to have the script memorised well. I learnt several lessons from the pilot which are summarised below.
 

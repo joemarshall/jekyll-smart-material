@@ -10,7 +10,7 @@ tags: []
 image: /uploads/2010/01/rage.jpg
 citation: Blue Peter (BBC TV). Technical work on Thrill Laboratory experiments (2009)
 ---
-[![Rage at Adventure Island]({{ site.url }}/uploads/2010/01/rage.jpg "Rage at Adventure Island")]({{ site.url }}/uploads/2010/01/rage.jpg)
+[![Rage at Adventure Island]({{ site.baseurl }}/uploads/2010/01/rage.jpg "Rage at Adventure Island")]({{ site.baseurl }}/uploads/2010/01/rage.jpg)
 
 I worked as a 'thrill technician' on an experiment shown on Blue Peter (a popular UK children's TV programme), done in collaboration with [Thrill Laboratory](http://www.thrilllaboratory.com/). We put one of the presenters on 3 roller coasters around the country (Collossus at Thorpe Park, Rage at Adventure Island, Southend, and Kumali at Flamingo Land), and kitted him up with physiological monitoring equipment to measure heart rate, galvanic skin response (how much he was sweating), and facial muscle measurements (frowns and smiles!). Using this equipment, we calculated measures of 'fright' and 'excite', to characterise his response to the different rides.
 

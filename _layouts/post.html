@@ -5,9 +5,40 @@ layout: default
 
 <div class="post mdl-shadow--2dp">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h3 class="post-title">{{ page.title }}</h3>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+
+{% assign citation = page.citation %}
+{% assign cit_length = citation | size %}
+{% if cit_length > 5 %}
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone info-block">
+    {% assign csplit = (citation | replace: "**") |split:'*' %}
+    {% assign italic = 0 %}
+    {% for part in csplit %}
+        {% if italic == 1 %}
+            <i>
+            {{part}}
+            </i>
+            {% assign italic = 0 %}
+        {% else %}
+            {% assign italic = 1 %}
+            {{part}}
+        {% endif %}
+    {% endfor %}
+    
+{% assign pdflen = page.pdflink | size %}
+{% if pdflen > 0 %}
+    {% if page.pdflink contains "://" %}
+    <a href='{{page.pdflink}}'>PDF</a>
+    {% else %}
+    <a href='{{site.baseurl}}{{page.pdflink}}'>PDF</a>
+    {% endif %}
+{% endif %}
+    
+    </div>
+{% endif %}
+
   <article class="post-content">
     {{ content | figuremaker }}
     
@@ -37,11 +68,11 @@ layout: default
         {% if post.url != page.url %}
             <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
               <a href="{{ post.url | prepend: site.baseurl }}">
-                <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+                <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.baseurl}}{{post.image|make_thumbnail}});background-size: cover;">
                   <div class="post-card__fade"></div>
-                  <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+                  <div class="mdl-card__title">
                     <h2 \br\br /h2>
-                    <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">{{ post.title }}</h2>
+                    <h2 class="mdl-card__title-text">{{ post.title }}</h2>
                   </div>
                 </div>
               </a>

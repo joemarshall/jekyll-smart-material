@@ -9,7 +9,7 @@ categories: [Software and Hardware]
 tags: []
 image: /uploads/2011/04/postcode2.png
 ---
-[![]({{ site.url }}/uploads/2011/04/postcode2-300x180.png "postcode2")]({{ site.url }}/uploads/2011/04/postcode2.png)
+[![]({{ site.baseurl }}/uploads/2011/04/postcode2-300x180.png "postcode2")]({{ site.baseurl }}/uploads/2011/04/postcode2.png)
 
 Android phones have lovely built in google maps navigation. However, the default 'car home' application, and the navigation application are a bit fiddly to enter addresses into compared to a dedicated sat nav system. For example, the onscreen keyboard has letters and numbers separately, with a button to switch between them, and it does not take up much of the screen, in order to allow for content.
 

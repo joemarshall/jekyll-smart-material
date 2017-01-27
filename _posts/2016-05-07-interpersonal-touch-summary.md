@@ -1,7 +1,7 @@
 ---
 id: 1072
-title: Interpersonal touch
-date: 2017-01-26T16:46:25+00:00
+title: Interpersonal Touch
+date: 2016-05-07T16:46:25+00:00
 author: Joe Marshall
 layout: post
 image: /uploads/2017/01/dom5.jpg
@@ -15,4 +15,4 @@ Touch between people is a key way in which we communicate socially, from the ear
 
 However, whilst interpersonal touch is part of many social activities it is largely absent from computer gaming. In this project, we aim to explore what happens if games encourage or detect direct touch between players. We have built and deployed a series of multiplayer games to explore this.
 
-The attached workshop paper [PDF]({{site.url}}/uploads/2017/01/joemarshall-interpersonal-touch-2.pdf) describes this project in more detail.
+The attached workshop paper [PDF]({{site.baseurl}}/uploads/2017/01/joemarshall-interpersonal-touch-2.pdf) describes this project in more detail.

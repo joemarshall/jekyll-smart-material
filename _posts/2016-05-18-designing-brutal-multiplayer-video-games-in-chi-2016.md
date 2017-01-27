@@ -1,6 +1,6 @@
 ---
 id: 1072
-title: Designing brutal multiplayer video games (CHI 2016 paper)
+title: Designing brutal multiplayer video games
 date: 2016-05-18T16:46:25+00:00
 author: Joe Marshall
 layout: post

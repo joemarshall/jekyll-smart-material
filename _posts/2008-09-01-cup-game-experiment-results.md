@@ -9,7 +9,7 @@ categories: [Magic]
 tags: []
 image: /uploads/2008/12/magic-real.jpg
 ---
-[![]({{ site.url }}/uploads/2008/12/magic-real-300x238.jpg "magic-real")]({{ site.url }}/uploads/2008/12/magic-real.jpg)
+[![]({{ site.baseurl }}/uploads/2008/12/magic-real-300x238.jpg "magic-real")]({{ site.baseurl }}/uploads/2008/12/magic-real.jpg)
 
 
 **Results**

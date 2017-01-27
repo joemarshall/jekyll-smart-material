@@ -5,7 +5,7 @@ date: 2017-01-25 17:36
 author: admin
 postid: 0
 comments: true
-categories: [Publications]
+categories: [Publications,Games]
 image: /uploads/2017/01/exergames.png
 tags: []
 citation: "Joe Marshall, Conor Linehan, 2017. **Misrepresentation of Health Research in Exertion Games Literature**. To appear in *Proceedings of 2017 CHI Conference on Human Factors in Computing Systems*"

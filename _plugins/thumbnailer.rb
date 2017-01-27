@@ -21,7 +21,9 @@
 require 'mini_magick'
 
 module ThumbFilter
-  def make_thumbnail(input,w,h) # will be available as the "thumbnail" filter
+  def make_thumbnail(input) # will be available as the "thumbnail" filter
+      w=300
+      h=300
       if input==nil
         return nil
       end
@@ -29,6 +31,7 @@ module ThumbFilter
       safe_input = input_no_ext.gsub("/","_")
 #      puts safe_input
       output ="./thumbnails/"+safe_input[1..-1]+".jpg"
+#      output ="./thumbnails/"+safe_input[1..-1]+".jpg"
       if !File.exists?("."+input) and !File.exists?(output)
         input="/_site"+input
         puts "trying",input,File.exists?(".#{input}")        
@@ -37,7 +40,7 @@ module ThumbFilter
       if !File.exists?(output) and File.exists?(input)
         puts "Thumbnailing #{input} to #{output} (#{w}x#{h})"
         puts "magick convert \"#{input}\" -resize \"#{w}x#{h}>\" #{output}"
-        system( "magick convert \"#{input}\" -resize \"#{w}x#{h}>\" #{output}" )
+        system( "magick convert \"#{input}\" -resize \"#{w}x#{h}>\" -quality 70 -define jpeg:extent=10kb -strip #{output} " )
       end
     return output[1..-1]
   end

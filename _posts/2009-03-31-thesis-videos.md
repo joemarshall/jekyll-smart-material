@@ -25,14 +25,14 @@ For anyone who hasn't got here via the abstract of my thesis, it is repeated bel
 > 
 > As well as artistic performance, it is envisaged that this work may prove applicable to more traditional situations. In addition to the framework itself, the development of the case studies has created several useful algorithms which have wider applications. The case studies are also useful guides for those creating performance systems, or other systems where deceptive techniques may be useful.
 > 
-> [Download full text]({{ site.url }}/uploads/2009/09/thesis-corrected.pdf)
+> [Download full text]({{ site.baseurl }}/uploads/2009/09/thesis-corrected.pdf)
 
 **Juggling Tracker Videos**
-I have two videos of the juggling tracker as demonstrations of the way the tracking works, and the range of outputs that can be produced by the tracker. All videos are filmed in one take in real time. The videos are available [here]({{ site.url }}{% post_url 2006-08-10-juggling-tracker-videos %}).
+I have two videos of the juggling tracker as demonstrations of the way the tracking works, and the range of outputs that can be produced by the tracker. All videos are filmed in one take in real time. The videos are available [here]({{ site.baseurl }}{% post_url 2006-08-10-juggling-tracker-videos %}).
 
 **Cup Game Video**
-A video showing the first two tricks of the Cup Game is available as a [Windows Media Video file]({{ site.url }}/uploads/2009/02/cupgamepromovideo.wmv) or a [Quicktime file]({{ site.url }}/uploads/2009/02/cupgamepromovideo.mov). This video may only really make sense if you read the description in the thesis first.
+A video showing the first two tricks of the Cup Game is available as a [Windows Media Video file]({{ site.baseurl }}/uploads/2009/02/cupgamepromovideo.wmv) or a [Quicktime file]({{ site.baseurl }}/uploads/2009/02/cupgamepromovideo.mov). This video may only really make sense if you read the description in the thesis first.
 
 **Rock Video**
-Rock was featured in New Scientist, the article and accompanying youtube video are available [here]({{ site.url }}{% post_url 2008-03-28-rock-in-new-scientist %}).
+Rock was featured in New Scientist, the article and accompanying youtube video are available [here]({{ site.baseurl }}{% post_url 2008-03-28-rock-in-new-scientist %}).
 

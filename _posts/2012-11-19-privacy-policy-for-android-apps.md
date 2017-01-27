@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Privacy Policy for Android Apps"
 date: 2012-11-19 15:53
 author: admin

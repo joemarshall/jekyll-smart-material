@@ -1,10 +1,10 @@
 # Site settings
 title: Joe Marshall - Human Computer Interaction Research
 email: joe.marshall@nottingham.ac.uk
-description: Slick Material Design theme for Jekyll powered by Material Design Lite.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
-copyright: 
+description: Joe Marshall's website powered by Material Design Lite
+baseurl: "/~pszjm2" # the subpath of your site, e.g. /blog/
+url: "http://www.cs.nott.ac.uk" # the base hostname & protocol for your site
+copyright: "&copy;Joe Marshall"
 
 # Build settings
 markdown: kramdown
@@ -13,14 +13,11 @@ markdown: kramdown
 material_theme: blue-deep_orange
 
 # Google Analytics account ID (UA-XXXXXXXX-X)
+google-analytics-ua: UA-91015217-1
 
-google-analytics-ua: UA-84475574-1
 keep_files: ["uploads"]
 
 permalink: /:year/:month/:day/:title.html
 
-collections:
-    pubs:
-        output: true
-        path: ../_posts
-        permalink: /awesome/:path/:title.:output_ext
+gems:
+    -   jekyll-minifier

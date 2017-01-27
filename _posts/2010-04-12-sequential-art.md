@@ -14,5 +14,5 @@ citation: "Rowland, D., Porter, D., Gibson, M., Walker, K., Underwood, J., Lucki
 
 I was involved in a paper led by Duncan Rowland which talked about the use of cartoons as an HCI method.
 
-The paper ([PDF]({{ site.url }}/uploads/2010/04/p2651-rowland.pdf) ) is of course itself a cartoon.
-![]({{ site.url }}/uploads/2017/01/comic.jpg "Sequential art in HCI")
+The paper ([PDF]({{ site.baseurl }}/uploads/2010/04/p2651-rowland.pdf) ) is of course itself a cartoon.
+![]({{ site.baseurl }}/uploads/2017/01/comic.jpg "Sequential art in HCI")

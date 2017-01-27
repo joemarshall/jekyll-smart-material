@@ -3,25 +3,60 @@ layout: default
 ---
 
 <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone info-block">
+        <p><b>Joe Marshall:</b> I am a senior researcher at the University of Nottingham, UK. My work explores the use of computer technology to create exciting, full body experiences. I build and study games, artistic experiences and other things that combine computer software with exciting physical experience. </p>
+        <p>
+        Scroll down this front page to see my work in chronological order. For a more organised look at my work, see the navigation menus, or    
+        for a CV / text list of publications, please see the <a href="{{site.baseurl}}/about/">about</a> page.</p>
+        
+    </div>
+
+
 {% assign mainposts = (site.posts | where: "layout" , "post") %}
-  {% for post in mainposts %}
+  {% for post in mainposts limit: 12 %}
     <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
       <a href="{{ post.url | prepend: site.baseurl }}">
       
-        <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.url}}{{post.image|make_thumbnail:300,300}});background-size: cover;">
+        <div class="post-card mdl-shadow--2dp" style="background-image:url({{site.baseurl}}{{post.image|make_thumbnail}});background-size: cover;">
           <div class="post-card__fade"></div>
-          <div class="mdl-card__title" style="height:100%;width:100%;padding:0;" >
+          <div class="mdl-card__title">
             <h2 \br\br /h2>
-            <h2 class="mdl-card__title-text" style="background-color:rgba(255,255,255,.5);padding:0px 0 1rem 0px">{{ post.title }}</h2>
+            <h2 class="mdl-card__title-text">{{ post.title }}</h2>
           </div>
 
         </div>
       </a>
   </div>
   {% endfor %}
+{% for post in mainposts offset: 12 %}
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
+      <a href="{{ post.url | prepend: site.baseurl }}" >
+      
+        <div class="post-card mdl-shadow--2dp" data-delayloadstyle="background-image:url({{site.baseurl}}{{post.image|make_thumbnail}});background-size: cover;">
+          <div class="post-card__fade"></div>
+          <div class="mdl-card__title">
+            <h2 \br\br /h2>
+            <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+          </div>
+
+        </div>
+      </a>
+  </div>
+  {% endfor %}  
 </div>
 
+
 <script language="javascript">
+// load images after page load
+window.addEventListener("load", function(){
+    var e=document.querySelectorAll('[data-delayloadstyle]');
+    for(i=0;i<e.length;i++)
+    {
+        var sty=e[i].getAttribute('data-delayloadstyle');
+        e[i].style.cssText=sty;
+    }
+});;
+
 // this just unbreaks old wordpress site links
 function getParameterByName(name, url) {
     if (!url) {

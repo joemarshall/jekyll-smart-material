@@ -9,7 +9,7 @@ categories: [Sensory Threads,Projects]
 tags: []
 image: /uploads/2010/04/sensorythreads-outside.jpg
 ---
-[![Sensory Threads in Farringdon]({{ site.url }}/uploads/2010/04/sensorythreads-outside-300x198.jpg "Sensory Threads in Farringdon")]({{ site.url }}/uploads/2010/04/sensorythreads-outside.jpg)
+[![Sensory Threads in Farringdon]({{ site.baseurl }}/uploads/2010/04/sensorythreads-outside-300x198.jpg "Sensory Threads in Farringdon")]({{ site.baseurl }}/uploads/2010/04/sensorythreads-outside.jpg)
 
 Sensory Threads is a wearable sensing project which creates interactive audio soundscapes. How it works is a group of 4 people are each given a wearable sensor box, and a pair of headphones, and sent out into a city (or any other place for that matter). The headphones play back a 'soundscape' - a piece of music which changes based on the sensor readings.
 

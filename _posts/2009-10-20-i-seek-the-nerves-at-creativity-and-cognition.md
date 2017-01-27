@@ -11,17 +11,17 @@ image: /uploads/2010/01/iseekthenervesberkeley.jpg
 pdflink: /uploads/2010/01/iseekthenervescandc2009.pdf
 citation: Marshall, J. **I Seek the Nerves Under Your Skin** in Creativity and Cognition, Berkeley, CA, USA (2009)
 ---
-![A runner doing I Seek the Nerves]({{ site.url }}/uploads/2010/01/iseekthenervesberkeley.jpg "iseekthenervesberkeley")
+![A runner doing I Seek the Nerves]({{ site.baseurl }}/uploads/2010/01/iseekthenervesberkeley.jpg "iseekthenervesberkeley")
 
 I ran I Seek the Nerves at Berkeley Art Museum, as part of the [Creativity and Cognition](http://www.creativityandcognition09.org/) conference, with the help of my friends Matt & Amelia who live in San Francisco. About 50 people had a go.
 
-In case you're interested in knowing more about the practicalities of the performance, you can read the [proposal]({{ site.url }}/uploads/2010/01/iseekthenervescandc2009.pdf).
+In case you're interested in knowing more about the practicalities of the performance, you can read the [proposal]({{ site.baseurl }}/uploads/2010/01/iseekthenervescandc2009.pdf).
 
 It was quite an interesting place to run it, there were lots of constraints such as closed gates around the area, people in the way, uphills and downhills, different terrain (grass, concrete, gravel).
 
 I did some interviews of participants, and also got a load of logfiles off the equipment, to allow me to explore how people played with the system.
 
-![Logfile graph from I Seek the Nerves]({{ site.url }}/uploads/2010/01/iseekgraph.jpg "Logfile graph from I Seek the Nerves")
+![Logfile graph from I Seek the Nerves]({{ site.baseurl }}/uploads/2010/01/iseekgraph.jpg "Logfile graph from I Seek the Nerves")
 
 This graph shows a participant who really went for it - the jumpy lines show the speed at which the person is running, whereas the straight lines show the speed the system requires them to run (which increases as they get further through the poem). Graph scales are time (in milliseconds) and speed (in a slightly rough numerical measure that doesn't really have a scale). An interesting thing about this participant, can be seen in the green jumpy line in the middle - they clearly went quite fast for a fair bit of time, then (at about 110,000) they noticed the poem fading out and put on a final burst of speed.
 

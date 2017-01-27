@@ -6,9 +6,9 @@ permalink: /about/
 
 I am a senior researcher at the University of Nottingham, UK. I'm part of the [Mixed Reality Lab](http://www.mrl.nott.ac.uk), and can usually be found either there, or in C15 in the Computer Science building.
 
-I do research relating to the use of the whole body in interaction with computers. A lot of the time this involves building systems to test out ideas, and studying how these systems work in real world settings with users. For example I have been involved in building [computerised fairground rides]({{site.url}}/projects/Rides/index.html), several [physical game systems]({{site.url}}/games/), and presenting work as [live performances]({{site.url}}/performances).
+I do research relating to the use of the whole body in interaction with computers. A lot of the time this involves building systems to test out ideas, and studying how these systems work in real world settings with users. For example I have been involved in building [computerised fairground rides]({{site.baseurl}}/projects/Rides/index.html), several [physical game systems]({{site.baseurl}}/games/), and presenting work as [live performances]({{site.baseurl}}/performances).
 
-See the [projects]({{site.url}}/projects) section for a thematic breakdown of work I have done.
+See the [projects]({{site.baseurl}}/projects) section for a thematic breakdown of work I have done.
 
 You can contact me on:
 <table border="0">
@@ -30,7 +30,7 @@ You can contact me on:
 
 This page contains a text based list of publications, performances and project work which I have been involved in, funding I have received etc. The wider site provides full details of all this work.
 
-A formal CV is also available as a [two page PDF]({{ site.url }}/uploads/2017/01/cv-2pg-20170113.pdf) with selected publications (last updated Jan 2017). Check out [Google Scholar](https://scholar.google.co.uk/citations?user=2tMhmgIAAAAJ&hl=en&oi=ao) for a full publications list. 
+A formal CV is also available as a [two page PDF]({{ site.baseurl }}/uploads/2017/01/cv-2pg-20170113.pdf) with selected publications (last updated Jan 2017). Check out [Google Scholar](https://scholar.google.co.uk/citations?user=2tMhmgIAAAAJ&hl=en&oi=ao) for a full publications list. 
 
 
 ## Selected Peer Reviewed Publications
@@ -41,7 +41,7 @@ A formal CV is also available as a [two page PDF]({{ site.url }}/uploads/2017/01
 {% assign pdflen = post.pdflink | size %}
 {% if citationlen > 0 %}
 {{post.citation}}
-{% if pdflen > 0 %} [PDF]({% if post.pdflink contains "://" %}{{post.pdflink}}{% else %}{{site.url}}{{post.pdflink}}{%endif %} ) {% endif %} [more...]({{site.url}}{{post.url}})
+{% if pdflen > 0 %} [PDF]({% if post.pdflink contains "://" %}{{post.pdflink}}{% else %}{{site.baseurl}}{{post.pdflink}}{%endif %} ) {% endif %} [more...]({{site.baseurl}}{{post.url}})
 {% endif %}
 {% endfor %}
 
@@ -51,7 +51,7 @@ A formal CV is also available as a [two page PDF]({{ site.url }}/uploads/2017/01
 {% for post in mainposts %}
 {% assign citationlen = post.citation | size %}
 {% if citationlen > 0 %}
-{{post.citation}} [more...]({{site.url}}{{post.url}})
+{{post.citation}} [more...]({{site.baseurl}}{{post.url}})
 {% endif %}
 {% endfor %}
 

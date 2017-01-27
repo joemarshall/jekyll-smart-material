@@ -21,7 +21,7 @@ If we connect the pin to a speaker, when the pin is 0, the speaker will move one
 
 Anyway, assuming we have a pin connected to a speaker or piezo sounder, if we repeatedly change from zero to one and back very quickly, the speaker will output what is known as a square wave. Changing how fast the value changes from zero to one alters the frequency or pitch of the note that is played - for example if you change from zero to one and back 440 times a second, the frequency will be 440Hz, or the A above middle C, used for tuning orchestral instruments.
 
-[![Square Wave]({{ site.url }}/uploads/2012/02/pwmexample3.png "A Square Wave")]({{ site.url }}/uploads/2012/02/pwmexample3.png)
+[![Square Wave]({{ site.baseurl }}/uploads/2012/02/pwmexample3.png "A Square Wave")]({{ site.baseurl }}/uploads/2012/02/pwmexample3.png)
 
 **A Square Wave**
 
@@ -96,13 +96,13 @@ However, we don't have analog outputs, in reality we can output only 0 and 1. Ho
 
 As an example, here is a pulse width modulation of a sine wave, showing how the duty cycle is modified based on the input signal value:
 
-[![pulse width modulated sine wave]({{ site.url }}/uploads/2012/02/pwmexample1.png "Pulse width modulated sine wave")]({{ site.url }}/uploads/2012/02/pwmexample1.png)
+[![pulse width modulated sine wave]({{ site.baseurl }}/uploads/2012/02/pwmexample1.png "Pulse width modulated sine wave")]({{ site.baseurl }}/uploads/2012/02/pwmexample1.png)
 
 **Pulse width modulation of a sine wave**
 
 In that example, the square wave is quite slow compared to the wave, in reality, we quite likely use a very high frequency square wave compared to the audible frequencies we want to output, so it would look more like this:
 
-[![Fast pulse width modulation of a sine wave]({{ site.url }}/uploads/2012/02/pwmexample2.png "Fast pulse width modulation of a sine wave")]({{ site.url }}/uploads/2012/02/pwmexample2.png)
+[![Fast pulse width modulation of a sine wave]({{ site.baseurl }}/uploads/2012/02/pwmexample2.png "Fast pulse width modulation of a sine wave")]({{ site.baseurl }}/uploads/2012/02/pwmexample2.png)
 
 **High frequency pulse width modulation of a sine wave**
 
@@ -220,7 +220,7 @@ Each interrupt can drive 2 pins, if you want to do stereo, or output one oscilla
     }
 </pre>
 
-A basic example of this is a [4 pin wave synth for arduino]({{ site.url }}/uploads/2012/03/wavesynth.txt) which I wrote - this runs 4 independent oscillators on 4 pins, using interrupts 1 and 2 on the Arduino, and demonstrates how to set up the interrupts, change the frequency and volume of the oscillators and all that jazz.
+A basic example of this is a [4 pin wave synth for arduino]({{ site.baseurl }}/uploads/2012/03/wavesynth.txt) which I wrote - this runs 4 independent oscillators on 4 pins, using interrupts 1 and 2 on the Arduino, and demonstrates how to set up the interrupts, change the frequency and volume of the oscillators and all that jazz.
 
-You can also heavily optimise this stuff, in the [Arduino Octosynth]({{ site.url }}{% post_url 2011-11-15-arduino-octo-synth-part-1 %}) there is example code for an 8 oscillator version of this, which has the interrupt routine written mostly in assembler. This makes it fast enough that you can also run a resonant filter on the output of the oscillators, or can mix 16 or more oscillators of unfiltered sound into a single pin.
+You can also heavily optimise this stuff, in the [Arduino Octosynth]({{ site.baseurl }}{% post_url 2011-11-15-arduino-octo-synth-part-1 %}) there is example code for an 8 oscillator version of this, which has the interrupt routine written mostly in assembler. This makes it fast enough that you can also run a resonant filter on the output of the oscillators, or can mix 16 or more oscillators of unfiltered sound into a single pin.
 

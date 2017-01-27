@@ -15,5 +15,5 @@ Joe Marshall (University of Nottingham, UK), Tony Pridmore (Nottingham Universit
 
 This is the sensing technology behind the Rock, and was published and presented at Pervasive 2008. In the presentation, I actually used a banana as my touch sensitive object, because I wanted to use something I could easily get hold of in Sydney. I think I am probably the first person ever to make a touch sensitive banana.
 
-[PDF Version]({{ site.url }}/uploads/2008/11/pressure.pdf)
+[PDF Version]({{ site.baseurl }}/uploads/2008/11/pressure.pdf)
 

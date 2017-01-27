@@ -10,7 +10,7 @@ tags: []
 image: /uploads/2011/12/gamecity2011bronco-small.jpg
 citation: GameCity Festival, Nottingham, UK. **Broncomatic** (2011)
 ---
-[![]({{ site.url }}/uploads/2011/12/gamecity2011bronco-small-300x200.jpg "Broncomatic at GameCity Festival")]({{ site.url }}/uploads/2011/12/gamecity2011bronco-small.jpg)
+[![]({{ site.baseurl }}/uploads/2011/12/gamecity2011bronco-small-300x200.jpg "Broncomatic at GameCity Festival")]({{ site.baseurl }}/uploads/2011/12/gamecity2011bronco-small.jpg)
 
 (picture by [nottinghamgamecity](http://www.flickr.com/photos/gamecityfestival/6303483412/in/set-72157628030035484))
 

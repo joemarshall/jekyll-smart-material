@@ -9,7 +9,7 @@ categories: [Juggling, Software and Hardware]
 tags: []
 image: /uploads/2009/02/glowclub2.jpg
 ---
-[![]({{ site.url }}/uploads/2009/02/glowclub2.jpg "Glow Club Editor")]({{ site.url }}/uploads/2009/02/glowclub2.jpg)
+[![]({{ site.baseurl }}/uploads/2009/02/glowclub2.jpg "Glow Club Editor")]({{ site.baseurl }}/uploads/2009/02/glowclub2.jpg)
 
 **New Version 2.6 - 1st November 2011**
 
@@ -38,7 +38,7 @@ The help has information on how to use it.
 It's sort of free, although as the splash screen explains, if you find yourself using it for shows, it'd be nice if you'd give me some money, after all you've already spent £1000 on juggling toys.
 
 Download it from the link below.
-[glowclubsetup.exe]({{ site.url }}/uploads/2008/12/GlowClubSetup.exe)
+[glowclubsetup.exe]({{ site.baseurl }}/uploads/2008/12/GlowClubSetup.exe)
 
 Joe
 

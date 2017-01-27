@@ -55,7 +55,7 @@ module Jekyll
                     end
                     safeTitle= item.data['title'].gsub(/[^a-zA-Z0-9]/,"_")
                     safeProject= theProject.gsub(/[^a-zA-Z0-9]/,"_")
-                    newLink='/projects/' + safeProject + "/"+safeTitle
+                    newLink='/projects/' + safeProject + "/"+safeTitle+".html"
     #                puts newLink
                     item.data['permalink'] = newLink
                 end

@@ -9,7 +9,7 @@ categories: [Software and Hardware]
 tags: []
 image: /uploads/2011/07/screenshot.jpg
 ---
-[![]({{ site.url }}/uploads/2011/07/screenshot-300x181.jpg "Patio Tile-o-matic Screenshot")]({{ site.url }}/uploads/2011/07/screenshot.jpg)
+[![]({{ site.baseurl }}/uploads/2011/07/screenshot-300x181.jpg "Patio Tile-o-matic Screenshot")]({{ site.baseurl }}/uploads/2011/07/screenshot.jpg)
 
 Want to lay a patio with a random layout?
 
@@ -67,5 +67,5 @@ On the plus side, for the job I had to do, it is much better than anything else 
 
 I'm releasing it here, for free, no guarantees or anything. Windows only I'm afraid. If you use it and like it, please do let me know. If you use it and really love it, you're welcome to paypal a donation to "paypal at joemarshall.org.uk".
 
-Download it from [here]({{ site.url }}/uploads/2011/07/patiotileomatic.exe).
+Download it from [here]({{ site.baseurl }}/uploads/2011/07/patiotileomatic.exe).
 

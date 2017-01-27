@@ -11,9 +11,9 @@ image: /uploads/2011/11/iseekleonardo.jpg
 citation: "Marshall, J., Chamberlain, A., Benford, S. **I Seek the Nerves under Your Skin: A “Fast” Interactive Artwork** in Leonardo, Volume 44, Number 5 (2011)"
 pdflink: /uploads/2012/11/iseek-leonardo-proof.pdf
 ---
-[![]({{ site.url }}/uploads/2011/11/iseekleonardo.jpg "iseekleonardo")]({{ site.url }}/uploads/2011/11/iseekleonardo.jpg)
+[![]({{ site.baseurl }}/uploads/2011/11/iseekleonardo.jpg "iseekleonardo")]({{ site.baseurl }}/uploads/2011/11/iseekleonardo.jpg)
 
 An article in Leonardo Journal about I seek the nerves, aimed at interactive artists and similar types.
 
-Download the [PDF]({{ site.url }}/uploads/2012/11/iseek-leonardo-proof.pdf). 
+Download the [PDF]({{ site.baseurl }}/uploads/2012/11/iseek-leonardo-proof.pdf). 
 

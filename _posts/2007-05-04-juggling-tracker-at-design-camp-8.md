@@ -10,9 +10,9 @@ tags: []
 image: /uploads/2007/05/designcamp.jpg
 citation: Design Camp 8, Wanganui, NZ. **Juggling Tracker** performance (in front of 500 people) (2007)
 ---
-[![]({{ site.url }}/uploads/2007/05/designcamp.jpg "designcamp")]({{ site.url }}/uploads/2007/05/designcamp.jpg)
+[![]({{ site.baseurl }}/uploads/2007/05/designcamp.jpg "designcamp")]({{ site.baseurl }}/uploads/2007/05/designcamp.jpg)
 
-I did a presentation and performance with the [juggling tracker]({{ site.url }}{% post_url 2006-06-28-juggling-tracker %}) at [Design Camp 8](http://wsd.ac.nz/designcamp8/), in Wanganui, New Zealand.
+I did a presentation and performance with the [juggling tracker]({{ site.baseurl }}{% post_url 2006-06-28-juggling-tracker %}) at [Design Camp 8](http://wsd.ac.nz/designcamp8/), in Wanganui, New Zealand.
 
 I had a caffeine fuelled brainwave, and changed everything at 6am in the morning from being a boring powerpoint presentation, to presenting entirely using pictures and no text, which integrated in with the juggling performance bits well, and made for something that was more like a combination performance/presentation than the two things bunged together.
 

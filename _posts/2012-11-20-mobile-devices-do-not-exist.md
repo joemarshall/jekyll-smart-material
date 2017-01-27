@@ -17,7 +17,7 @@ The vast majority of mobile systems are essentially designed around the concept 
 
 ## The reality of mobile device use
 
-[![]({{ site.url }}/uploads/2012/11/brokenphone-300x190.jpg "Mobile devices and moving don't always mix (CC SA BY flickr.com/people/njaminjami)")]({{ site.url }}/uploads/2012/11/brokenphone.jpg) Whilst systems are designed for active use only when stopped, in reality, people do use mobile devices while moving all the time. This causes all manner of problems:
+[![]({{ site.baseurl }}/uploads/2012/11/brokenphone-300x190.jpg "Mobile devices and moving don't always mix (CC SA BY flickr.com/people/njaminjami)")]({{ site.baseurl }}/uploads/2012/11/brokenphone.jpg) Whilst systems are designed for active use only when stopped, in reality, people do use mobile devices while moving all the time. This causes all manner of problems:
 
 *   Social issues such as 'pavement rage' when people are too busy looking at their phone to pay attention to others they are sharing space with.
 *   Physical issues when people walk without looking, such as tripping over, or walking into the road

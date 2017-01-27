@@ -13,5 +13,5 @@ citation: "Henrysson, A, Marshall, J, Billinghurst, M, **Experiments in 3D inter
 ---
 I did some work with Anders Henrysson and Mark Billinghurst exploring different ways of using smartphone based computer vision algorithms to allow people to manipulate 3d objects on screens. This work used Series 60 Symbian phones, and was at the time quite cutting edge.
 
-Read the paper here ([PDF]({{ site.url }}/uploads/2008/11/3dinteraction.pdf ) .
-![]({{ site.url }}/uploads/2017/01/3dinteraction.jpg "Computer vision on Nokia S60 phone")
+Read the paper here ([PDF]({{ site.baseurl }}/uploads/2008/11/3dinteraction.pdf ) .
+![]({{ site.baseurl }}/uploads/2017/01/3dinteraction.jpg "Computer vision on Nokia S60 phone")

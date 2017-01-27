@@ -10,5 +10,4 @@ tag: Juggling
 folder: projects/juggling
 image: /uploads/2006/06/trackervideo2.jpg
 ---
-Work relating to juggling and my Juggling Tracker
-
+During my PhD, I built a system for tracking juggling and creating live projections based on position of the balls and the actions of the performer.

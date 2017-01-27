@@ -10,5 +10,5 @@ tag: Rides
 folder: projects/rides
 image: /uploads/2010/01/bronco1.jpg
 ---
-
+I have been involved in a lot of work in the Mixed Reality Lab relating to fairground and theme park style rides, including both creating our own rides, and studying other rides. A lot of this work was in collaboration with [Brendan Walker](http://www.aerial.fm/docs/home.php), [Paul Tennent](https://paultennent.wordpress.com/) and others.
 

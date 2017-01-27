@@ -9,7 +9,7 @@ categories: [Interaction in Motion]
 tags: []
 image: /uploads/2013/05/examplelog-web.png
 ---
-So, in my [alt.chi paper]({{ site.url }}{% post_url 2013-04-29-mobile-interaction-does-not-exist-at-alt-chi-2013 %}), I argued that interaction designed for use while swimming was an extremely challenging thing to design and build.
+So, in my [alt.chi paper]({{ site.baseurl }}{% post_url 2013-04-29-mobile-interaction-does-not-exist-at-alt-chi-2013 %}), I argued that interaction designed for use while swimming was an extremely challenging thing to design and build.
 
 So, it seemed right that I should actually attempt to build some swimming technology and design some interactions using it. <span style="line-height: 1.6em;">So, I set out to build a system for 'interactive swimming'. This page describes the current state of the swim sensing technology which I am developing. I currently have not built any applications using it.</span>
 
@@ -33,7 +33,7 @@ So, I put together a list of specifications for the technology.
 *   Real time response to the swimmer
 I then spent a few months hacking code, putting mobile phones in waterproof cases, analysing sensor readings, developing algorithms, going swimming, to come up with something which gives the results below.
 
-[![Example output from Swim Sensing System]({{ site.url }}/uploads/2013/05/examplelog-web-1024x377.png)]({{ site.url }}/uploads/2013/05/examplelog-web.png)
+[![Example output from Swim Sensing System]({{ site.baseurl }}/uploads/2013/05/examplelog-web-1024x377.png)]({{ site.baseurl }}/uploads/2013/05/examplelog-web.png)
 
 What this essentially shows is me swimming two lengths of my local pool, during a public session. I swum the first length breaststroke, did an open turn and swam back crawl. In the data you can see:
 

@@ -38,3 +38,11 @@
     }
   }
 }
+
+/* bit at the top for a pull quote, description, citation or something like that */
+.info-block
+{
+ @extend .post-block;
+  background: #F0E68C;
+  padding: 1rem;
+}

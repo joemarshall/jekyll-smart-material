@@ -9,7 +9,7 @@ categories: [Magic, Projects]
 tags: []
 image: /uploads/2008/12/lights.jpg
 ---
-[![]({{ site.url }}/uploads/2008/12/lights-225x300.jpg "The Cup Table")]({{ site.url }}/uploads/2008/12/lights.jpg)
+[![]({{ site.baseurl }}/uploads/2008/12/lights-225x300.jpg "The Cup Table")]({{ site.baseurl }}/uploads/2008/12/lights.jpg)
 
 The Cup Game is a computer aided magic trick. It is based around a famous trick known as the Shell Game. In the shell game, a small bead is put under one of three cups, shells or walnuts, which are then shuffled, after which the person playing the game has to guess which cup it is under. This is commonly played as a con-game, where people are cheated out of their money in what seems like a fair game, by criminals who use sleight of hand to switch the bead.
 
