@@ -75,7 +75,7 @@ if (pagedest)
 {
     pageIDLookup=
     {
-    {% for post in mainposts %}{% if post.postid %}{{post.postid}}:"{{post.url}}",{% endif %}{% endfor %}
+    {% for post in mainposts %}{% if post.postid %}{{post.postid}}:"{{site.baseurl}}{{post.url}}",{% endif %}{% endfor %}
     0 : "/"
     };
     if (pagedest in pageIDLookup)
