@@ -11,7 +11,7 @@ image: /uploads/2010/04/street1.jpg
 ---
 [![People in the street with Sensory Threads Equipment]({{ site.baseurl }}/uploads/2010/04/street1-242x300.jpg "People in the street with Sensory Threads Equipment")]({{ site.baseurl }}/uploads/2010/04/street1.jpg)
 
-We ran [Sensory Threads]({{ site.baseurl }}{% post_url 2012-11-06-sensory-threads %}) at the CHI 2010 [Whole Body Interaction Workshop](http://lister.cms.livjm.ac.uk/homepage/staff/cmsdengl/WBI2010/).
+We ran [Sensory Threads]({% post_url 2012-11-06-sensory-threads %}) at the CHI 2010 Whole Body Interaction Workshop.
 
 This was a slightly cut down version, but we managed to get sensor readings (sound, light, proximity and heart rate) transmitting over an American 3g connection.
 

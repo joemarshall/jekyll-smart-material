@@ -19,15 +19,31 @@
 
 module Jekyll
 
+    @@renderingCopy=false
+
     def self.renderCopy(post,catname,foldername)
-        if post.data['categories'].include? catname
+        if @@renderingCopy==false and post.data['categories'].include? catname
+            @@renderingCopy=true
+            
             safeTitle = post.data['title'].gsub(/[^a-zA-Z0-9]/,"_")
             newLink="/"+foldername+"/"+safeTitle+".html"
+            puts "rendercopy:",newLink
+            path=newLink
             path= post.site.dest+newLink
             post.data['permalink'] = newLink
+            post.instance_variable_set(:@url,newLink)
             post.output = Jekyll::Renderer.new(post.site, post, post.site.site_payload).run
-            FileUtils.mkdir_p(File.dirname(path))
-            File.write(path, post, :mode => "wb")        
+            puts "Dest:",post.data,post.url
+
+            # FileUtils.mkdir_p(File.dirname(path))
+            # File.write(path, output, :mode => "wb")
+
+            post.write(post.site.dest)
+            @@renderingCopy=false
+
+            
+            #            FileUtils.mkdir_p(File.dirname(path))
+#            File.write(path, post, :mode => "wb")        
         end
     end
     

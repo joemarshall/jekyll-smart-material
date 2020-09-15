@@ -5,7 +5,9 @@ description: Joe Marshall's website powered by Material Design Lite
 baseurl: "/~pszjm2" # the subpath of your site, e.g. /blog/
 url: "http://www.cs.nott.ac.uk" # the base hostname & protocol for your site
 copyright: "&copy;Joe Marshall"
-
+includes_dir: _includes
+plugins_dir:  _plugins
+layouts_dir:  _layouts
 # Build settings
 markdown: kramdown
 
@@ -19,5 +21,5 @@ keep_files: ["uploads"]
 
 permalink: /:year/:month/:day/:title.html
 
-gems:
-    -   jekyll-minifier
+#plugins:
+#    -   jekyll-minifier

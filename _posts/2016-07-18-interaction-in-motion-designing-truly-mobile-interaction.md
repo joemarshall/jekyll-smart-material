@@ -11,7 +11,7 @@ citation: "Joe Marshall, Alexander Dancu, Floyd Mueller, 2016. **Interaction in 
 ---
 We presented a paper at ACM Designing Interactive System  on some work with Alex Dancu and Floyd Mueller where we discuss how it is possible to design things for people who are actively moving about while they are using a system.
 
-It is a more positive and practical follow on from the [CHI 2013 alt.chi paper]({% post_url 2013-04-29-mobile-interaction-does-not-exist-at-alt-chi-2013 %}) in which we argued that no one does design for this. In part because lots of people have started to design for extreme motion.
+It is a more positive and practical follow on from the [CHI 2013 alt.chi paper]({{site.baseurl}}{% post_url 2013-04-29-mobile-interaction-does-not-exist-at-alt-chi-2013 %}) in which we argued that no one does design for this. In part because lots of people have started to design for extreme motion.
 
 Read the paper here:
 

@@ -14,7 +14,7 @@ citation: Cheltenham Science Festival. **Perping** gas mask controlled game (201
 
 *"Breathe in, and your bat goes up, breath out and your bat goes down. Breath quickly and your bat size increases. Hyperventilate, and the ball splits into two. Miss the ball and your opponent scores a point"*
 
-PerPing is a further use of the [gas mask breathing interface]({{ site.baseurl }}{% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}) originally developed for the [Breathless]({{ site.baseurl }}{% post_url 2010-10-15-breathless %}) breathing controlled swing ride.
+PerPing is a further use of the [gas mask breathing interface]({% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}) originally developed for the [Breathless]({% post_url 2010-10-15-breathless %}) breathing controlled swing ride.
 
 We used the breathing interface to make a selection of games, including PerPing, a two player breathing controlled tennis game somewhat inspired by the classic early video game Pong.
 

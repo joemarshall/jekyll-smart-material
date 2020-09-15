@@ -20,5 +20,5 @@ In this event, we took groups of four people, and split them into two pairs. Two
 
 People who were second through the maze had already heard the screams of their friends in the maze, whilst not really being able to see masses of detail about what was happening to them. This really seemed to pump them up and make the experience seem more scary.
 
-We published a [paper about the gas masks]({{ site.baseurl }}{% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}) at [CHI 2011](http://www.chi2011.org).
+We published a [paper about the gas masks]({% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}) at [CHI 2011](http://www.chi2011.org).
 

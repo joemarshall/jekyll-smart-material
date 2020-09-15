@@ -13,7 +13,7 @@ citation: Marshall, J. **I Seek the Nerves Under Your Skin** in Creativity and C
 ---
 ![A runner doing I Seek the Nerves]({{ site.baseurl }}/uploads/2010/01/iseekthenervesberkeley.jpg "iseekthenervesberkeley")
 
-I ran I Seek the Nerves at Berkeley Art Museum, as part of the [Creativity and Cognition](http://www.creativityandcognition09.org/) conference, with the help of my friends Matt & Amelia who live in San Francisco. About 50 people had a go.
+I ran I Seek the Nerves at Berkeley Art Museum, as part of the Creativity and Cognition conference, with the help of my friends Matt & Amelia who live in San Francisco. About 50 people had a go.
 
 In case you're interested in knowing more about the practicalities of the performance, you can read the [proposal]({{ site.baseurl }}/uploads/2010/01/iseekthenervescandc2009.pdf).
 

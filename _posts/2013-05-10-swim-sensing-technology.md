@@ -9,7 +9,7 @@ categories: [Interaction in Motion]
 tags: []
 image: /uploads/2013/05/examplelog-web.png
 ---
-So, in my [alt.chi paper]({{ site.baseurl }}{% post_url 2013-04-29-mobile-interaction-does-not-exist-at-alt-chi-2013 %}), I argued that interaction designed for use while swimming was an extremely challenging thing to design and build.
+So, in my [alt.chi paper]({% post_url 2013-04-29-mobile-interaction-does-not-exist-at-alt-chi-2013 %}), I argued that interaction designed for use while swimming was an extremely challenging thing to design and build.
 
 So, it seemed right that I should actually attempt to build some swimming technology and design some interactions using it. <span style="line-height: 1.6em;">So, I set out to build a system for 'interactive swimming'. This page describes the current state of the swim sensing technology which I am developing. I currently have not built any applications using it.</span>
 

@@ -2,10 +2,18 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header  mdl-layout--fixed-drawer " >
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('mainscroll').focus();
+}, false);
+</script>
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header  mdl-layout--fixed-drawer " >
       {% include header.html %}
       {% include menu-left.html %}
-      <main class="mdl-layout__content">
+      <main class="mdl-layout__content"  tabindex="1" id="mainscroll"
+      >
         <div class="page-content">
           <div class="wrapper">
             {{ content }}

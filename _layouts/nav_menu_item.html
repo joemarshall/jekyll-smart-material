@@ -13,7 +13,7 @@ layout: default
     {{ content }}
     </div>
 
-{% assign mainposts = (site.categories[page.tag]| where: "layout" , "post") %}
+{% assign mainposts = site.categories[page.tag]| where: "layout" , "post" %}
     {% if page.url contains "/projects/" %}
                 {% comment %}
                 In project sub pages, the project summary page always comes first
@@ -52,7 +52,7 @@ layout: default
             {% endif %}
           {% endfor %}
       {% else %}
-        {% assign navposts = (site.categories[page.tag]| where: "layout" , "nav_menu_item") %}
+        {% assign navposts = site.categories[page.tag]| where: "layout" , "nav_menu_item" %}
           {% for post in navposts %}
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
                     <a href="{{ post.url | prepend: site.baseurl }}">

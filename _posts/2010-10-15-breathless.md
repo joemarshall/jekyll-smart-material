@@ -20,5 +20,5 @@ The first performance of Breathless was at Space Studios in Hackney, on October 
 
 This is part of our responsive / adaptive ride developments, and is the first ride that we have developed completely from scratch, from the breathing sensor masks, to the motor control, all the software in between (I developed the control software for the ride), and then the performance around it.
 
-We published a [paper about the gas masks]({{ site.baseurl }}{% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}) at [CHI 2011](http://www.chi2011.org).
+We published a [paper about the gas masks]({% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}) at [CHI 2011](http://www.chi2011.org).
 

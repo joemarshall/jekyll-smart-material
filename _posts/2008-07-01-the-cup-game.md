@@ -23,5 +23,5 @@ In the third trick, the audience member is allowed to get their own back on the 
 
 The Cup Game is an exploration of the ideas in my thesis relating to the creation of illusion by deception, and of using computers within these deceptions.
 
-Read the other posts relating to the [magic](?cat=9) project for more information.
+Read the posts below for more information.
 

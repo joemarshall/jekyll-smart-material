@@ -11,7 +11,7 @@ tags:
 citation: Twaddle Cabaret, Derby, UK. **Juggling Tracker** Performance (2006)
 ---
 [![]({{ site.baseurl }}/uploads/2008/12/Twaddle002-1024x576.jpg "Juggling tracker at Twaddle")]({{ site.baseurl }}/uploads/2008/12/Twaddle002.jpg)
-This was the first public live performance with the [Juggling Tracker]({{ site.baseurl }}{% post_url 2006-06-28-juggling-tracker %}). I did something on a space theme - using loops from the First Man in Space by All Seeing Eye as my music.
+This was the first public live performance with the [Juggling Tracker]({% post_url 2006-06-28-juggling-tracker %}). I did something on a space theme - using loops from the First Man in Space by All Seeing Eye as my music.
 
 It was a bit mental, I think people who already knew what I was doing enjoyed it, but it was a bit confusing for some people who didn't catch onto what the technology was up to until further through the performance.
 

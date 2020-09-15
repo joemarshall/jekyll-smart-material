@@ -15,7 +15,7 @@ pdflink: /uploads/2008/11/cc2007-demo.pdf
 
 *Marshall, J, Benford, S, Pridmore, T* in ACM Creativity and Cognition 2007.
 
-I presented a demonstration of the [juggling tracker]({{ site.baseurl }}{% post_url 2006-06-28-juggling-tracker %}) to the conference at ACM Creativity and Cognition 2007.
+I presented a demonstration of the [juggling tracker]({% post_url 2006-06-28-juggling-tracker %}) to the conference at ACM Creativity and Cognition 2007.
 
 This was a demonstration setup, where people came past during the conference. The proposal is available as a [PDF]({{ site.baseurl }}/uploads/2008/11/cc2007-demo.pdf).
 

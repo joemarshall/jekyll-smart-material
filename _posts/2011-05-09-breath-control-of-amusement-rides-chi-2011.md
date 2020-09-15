@@ -15,5 +15,5 @@ citation: S., Walker, B. and McAuley, D.. **Breath control of amusement rides**.
 
 I presented a paper that we wrote ([PDF]({{ site.baseurl }}/uploads/2011/05/file983-1.pdf)) about the Broncomatic breath controlled Bucking Bronco ride at CHI 2011.
 
-For more information on the Broncomatic, see the [Rides](?cat=12) theme.
+For more information on the Broncomatic, see the posts below.
 

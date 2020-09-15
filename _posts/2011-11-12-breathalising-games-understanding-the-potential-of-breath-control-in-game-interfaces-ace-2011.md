@@ -13,7 +13,7 @@ pdflink: /uploads/2011/11/breath-games-final.pdf
 ---
 *by Paul Tennent, Duncan Rowland, Joe Marshall, Stefan Rennick Egglestone, Alexander Harrison, Zachary Jaime, Brendan Walker, Steve Benford.*
 
-Paul Tennent, Duncan Rowland and a few of us put together this paper ([PDF](/~jqm/{{ site.baseurl }}/uploads/2011/11/breath-games-final.pdf)) for ACM Advances in Computer Entertainment 2011 (ACE 2011). The paper is based on a selection of breath based games that we have worked on, using the [gas mask breathing interface]({{ site.baseurl }}{% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}).
+Paul Tennent, Duncan Rowland and a few of us put together this paper ([PDF]({{ site.baseurl }}/uploads/2011/11/breath-games-final.pdf)) for ACM Advances in Computer Entertainment 2011 (ACE 2011). The paper is based on a selection of breath based games that we have worked on, using the [gas mask breathing interface]({% post_url 2011-05-09-the-gas-mask-a-probe-for-exploring-fearsome-interactions-alt-chi-2011 %}).
 
 These games are (read the paper for more details obviously):
 
@@ -27,7 +27,7 @@ These games are (read the paper for more details obviously):
 
 [![]({{ site.baseurl }}/uploads/2011/11/breathgames3-300x231.jpg "PerPing")]({{ site.baseurl }}/uploads/2011/11/breathgames3.jpg)
 
-**PerPing** - a two player breathing controlled tennis game - breathe in to move the bat up, breathe out to move it down, hyperventilate to split the ball in two. Miss the ball and your opponent scores a point. PerPing was run for a large audience at Cheltenham Science Festival ([read more about Cheltenham]({{ site.baseurl }}{% post_url 2011-06-20-perping-at-cheltenham-science-festival %})).
+**PerPing** - a two player breathing controlled tennis game - breathe in to move the bat up, breathe out to move it down, hyperventilate to split the ball in two. Miss the ball and your opponent scores a point. PerPing was run for a large audience at Cheltenham Science Festival ([read more about Cheltenham]({% post_url 2011-06-20-perping-at-cheltenham-science-festival %})).
 
 [![]({{ site.baseurl }}/uploads/2011/11/breathgames4-300x205.jpg "Sneak em up")]({{ site.baseurl }}/uploads/2011/11/breathgames4.jpg)
 

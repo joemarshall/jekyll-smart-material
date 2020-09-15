@@ -3,7 +3,8 @@ layout: default
 ---
 {% assign categories_flat = page.categories | join: ',' %}
 
-<div class="post mdl-shadow--2dp">
+
+<div class="post mdl-shadow--2dp" >
   <header class="post-header">
     <h3 class="post-title">{{ page.title }}</h3>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -13,7 +14,7 @@ layout: default
 {% assign cit_length = citation | size %}
 {% if cit_length > 5 %}
     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone info-block">
-    {% assign csplit = (citation | replace: "**") |split:'*' %}
+    {% assign csplit = citation | replace: "**" |split:'*' %}
     {% assign italic = 0 %}
     {% for part in csplit %}
         {% if italic == 1 %}
@@ -45,7 +46,7 @@ layout: default
       {% if categories_flat contains "Projects" %}{% else %}<p><br/>Related themes: 
       {% for c in page.categories %}
       {% assign categorypost = site.tags[c] | first %}
-      <a href="{{ categorypost.url }}">{{ categorypost.title }}</a>,
+      <a href="{{site.baseurl}}{{ categorypost.url }}">{{ categorypost.title }}</a>,
       {% endfor %}{% endif %}
 
     
@@ -63,7 +64,7 @@ layout: default
 
       <p><h1 class="post-title">Also in {{this_cat}} project</h1></p>
   <div class="mdl-grid">
-    {% assign mainposts = (site.categories[this_cat]| where: "layout" , "post") %}
+    {% assign mainposts = site.categories[this_cat]| where: "layout" , "post" %}
     {% for post in mainposts %}
         {% if post.url != page.url %}
             <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">

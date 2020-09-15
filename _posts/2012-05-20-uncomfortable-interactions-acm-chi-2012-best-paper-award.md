@@ -15,5 +15,5 @@ pdflink: /uploads/2012/11/Uncomfortable-interactions.pdf
 
 Our paper **Uncomfortable Interactions** (Steve Benford, Chris Greenhalgh, Gabriella Giannachi, Brendan Walker, Joe Marshall, Tom Rodden) won a best paper award at [ACM CHI 2012](http://chi2012.acm.org "ACM chi conference site"). [PDF version.]({{ site.baseurl }}/uploads/2012/11/Uncomfortable-interactions.pdf)
 
-This paper discusses situations in which interface designers may wish to deliberately create discomfort as part of an experience. It focuses on two experiences - the [Breathless]({{ site.baseurl }}{% post_url 2010-10-15-breathless %}) interactive swing ride, and [Ulrike and Eamon Compliant](http://blasttheory.co.uk/bt/work_ulrikeandeamoncompliant.html), an interactive performance by [Blast Theory](http://blasttheory.co.uk/).
+This paper discusses situations in which interface designers may wish to deliberately create discomfort as part of an experience. It focuses on two experiences - the [Breathless]({% post_url 2010-10-15-breathless %}) interactive swing ride, and [Ulrike and Eamon Compliant](http://blasttheory.co.uk/bt/work_ulrikeandeamoncompliant.html), an interactive performance by [Blast Theory](http://blasttheory.co.uk/).
 

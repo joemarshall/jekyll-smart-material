@@ -11,7 +11,7 @@ image: /uploads/2010/03/falloff.jpg
 ---
 {% include youtube.html id="P5YuXrDez40" %}
 
-We set up the [Broncomatic]({{ site.baseurl }}{% post_url 2010-03-31-broncomatic-experimentalism %}) in the Exchange Building at the University of Nottingham Jubilee Campus.
+We set up the [Broncomatic]({% post_url 2010-03-31-broncomatic-experimentalism %}) in the Exchange Building at the University of Nottingham Jubilee Campus.
 
 The Exchange Building foyer is an area where people come to have lunch, go to cash machines and go to the student union shop. Even towards the end of term, when university is pretty quiet, you can rely on a few passers by.
 

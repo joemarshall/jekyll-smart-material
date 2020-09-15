@@ -14,5 +14,5 @@ This is a privacy policy for Android Apps published by Joe Marshall (see a list 
 
 2) Google Play collects data as to how many people have downloaded my apps, and what devices and operating system versions they are using.
 
-3) Some apps may have adverts in. These are supplied by Google AdMob. If you want to know what they do about privacy read their [privacy policy](http://www.admob.com/home/privacy). You can mess with your advert settings on your device by going to 'google play', and selecting 'settings'.
+3) Some apps may have adverts in. These are supplied by Google AdMob. If you want to know what they do about privacy read their [privacy policy](https://www.google.com/admob/home/privacy). You can mess with your advert settings on your device by going to 'google play', and selecting 'settings'.
 

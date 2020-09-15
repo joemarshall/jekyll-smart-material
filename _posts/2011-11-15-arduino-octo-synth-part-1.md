@@ -31,7 +31,7 @@ I made a quick cardboard and tin-foil prototype of an 8 key capacitative sensing
 
 Current version of the source code: [octosynth-source.]({{ site.baseurl }}/uploads/2011/11/octosynth-source.txt)
 
-Some explanation of what the code is doing is available in my page about [direct digital synthesis]({% post_url 2015-01-21-arduino-music-using-direct-digital-synthesis %}).
+Some explanation of what the code is doing is available in my page about [direct digital synthesis]({{site.baseurl}}{% post_url 2015-01-21-arduino-music-using-direct-digital-synthesis %}).
 
 Video of Rose playing with the first boxed version of the Octosynth
 {% include youtube.html id="MacsDxfzOC0" %}

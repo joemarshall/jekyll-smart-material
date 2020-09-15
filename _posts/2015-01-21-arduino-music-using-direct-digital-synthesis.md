@@ -222,5 +222,5 @@ Each interrupt can drive 2 pins, if you want to do stereo, or output one oscilla
 
 A basic example of this is a [4 pin wave synth for arduino]({{ site.baseurl }}/uploads/2012/03/wavesynth.txt) which I wrote - this runs 4 independent oscillators on 4 pins, using interrupts 1 and 2 on the Arduino, and demonstrates how to set up the interrupts, change the frequency and volume of the oscillators and all that jazz.
 
-You can also heavily optimise this stuff, in the [Arduino Octosynth]({{ site.baseurl }}{% post_url 2011-11-15-arduino-octo-synth-part-1 %}) there is example code for an 8 oscillator version of this, which has the interrupt routine written mostly in assembler. This makes it fast enough that you can also run a resonant filter on the output of the oscillators, or can mix 16 or more oscillators of unfiltered sound into a single pin.
+You can also heavily optimise this stuff, in the [Arduino Octosynth]({% post_url 2011-11-15-arduino-octo-synth-part-1 %}) there is example code for an 8 oscillator version of this, which has the interrupt routine written mostly in assembler. This makes it fast enough that you can also run a resonant filter on the output of the oscillators, or can mix 16 or more oscillators of unfiltered sound into a single pin.
 

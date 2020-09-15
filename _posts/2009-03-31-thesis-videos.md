@@ -28,11 +28,11 @@ For anyone who hasn't got here via the abstract of my thesis, it is repeated bel
 > [Download full text]({{ site.baseurl }}/uploads/2009/09/thesis-corrected.pdf)
 
 **Juggling Tracker Videos**
-I have two videos of the juggling tracker as demonstrations of the way the tracking works, and the range of outputs that can be produced by the tracker. All videos are filmed in one take in real time. The videos are available [here]({{ site.baseurl }}{% post_url 2006-08-10-juggling-tracker-videos %}).
+I have two videos of the juggling tracker as demonstrations of the way the tracking works, and the range of outputs that can be produced by the tracker. All videos are filmed in one take in real time. The videos are available [here]({% post_url 2006-08-10-juggling-tracker-videos %}).
 
 **Cup Game Video**
 A video showing the first two tricks of the Cup Game is available as a [Windows Media Video file]({{ site.baseurl }}/uploads/2009/02/cupgamepromovideo.wmv) or a [Quicktime file]({{ site.baseurl }}/uploads/2009/02/cupgamepromovideo.mov). This video may only really make sense if you read the description in the thesis first.
 
 **Rock Video**
-Rock was featured in New Scientist, the article and accompanying youtube video are available [here]({{ site.baseurl }}{% post_url 2008-03-28-rock-in-new-scientist %}).
+Rock was featured in New Scientist, the article and accompanying youtube video are available [here]({% post_url 2008-03-28-rock-in-new-scientist %}).
 

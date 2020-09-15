@@ -22,6 +22,7 @@ Movement activities, as well as getting us from one place to another are also in
 So, I argue that we should design interfaces for use during movement for two key reasons:
 
 *   The intrinsic value of movement as an activity means that there is an argument for doing anything we can to support people in taking part in movement activities.
-*   As I say above ([and in slightly more detail]({{ site.baseurl }}{% post_url 2012-11-20-mobile-devices-do-not-exist %})) the reality that people do use mobile devices during movement activities means that as interaction designers, we should be designing to support this reality.
-[Read more about this project](?cat=15 "Interaction in Motion pages").
+*   As I say above ([and in slightly more detail]({% post_url 2012-11-20-mobile-devices-do-not-exist %})) the reality that people do use mobile devices during movement activities means that as interaction designers, we should be designing to support this reality.
+
+Read more about this project in the posts below:
 

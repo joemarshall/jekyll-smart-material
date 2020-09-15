@@ -39,5 +39,5 @@ image: /uploads/2010/03/broncomatic.jpg
 <div class="mceTemp">Duncan & I built a 'finish line camera', which records video from a single line over time, showing a trace of the bronco movements - giving some quite neat results.</div>
 <div class="mceTemp"></div>
 <div class="mceTemp">**First Experiments**</div>
-<div class="mceTemp">We have now run a public experiment with the Broncomatic, a [first description of this experiment]({{ site.baseurl }}{% post_url 2010-03-31-broncomatic-experimentalism %}) is available. We presented this work in a [paper at CHI 2011]({{ site.baseurl }}{% post_url 2011-05-09-breath-control-of-amusement-rides-chi-2011 %}). The Discovery Channel show 'Daily Planet' also did a piece on the Bronco ([more details]({{ site.baseurl }}{% post_url 2011-11-01-broncomatic-on-daily-planet-discovery-channel %})).</div> 
+<div class="mceTemp">We have now run a public experiment with the Broncomatic, a [first description of this experiment]({% post_url 2010-03-31-broncomatic-experimentalism %}) is available. We presented this work in a [paper at CHI 2011]({% post_url 2011-05-09-breath-control-of-amusement-rides-chi-2011 %}). The Discovery Channel show 'Daily Planet' also did a piece on the Bronco ([more details]({% post_url 2011-11-01-broncomatic-on-daily-planet-discovery-channel %})).</div> 
 

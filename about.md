@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I am a senior researcher at the University of Nottingham, UK. I'm part of the [Mixed Reality Lab](http://www.mrl.nott.ac.uk), and can usually be found either there, or in C15 in the Computer Science building.
+I am a senior researcher at the University of Nottingham, UK. I'm part of the [Mixed Reality Lab](https://www.nottingham.ac.uk/research/groups/mixedrealitylab/), and can usually be found either there, or in C15 in the Computer Science building.
 
-I do research relating to the use of the whole body in interaction with computers. A lot of the time this involves building systems to test out ideas, and studying how these systems work in real world settings with users. For example I have been involved in building [computerised fairground rides]({{site.baseurl}}/projects/Rides/index.html), several [physical game systems]({{site.baseurl}}/games/), and presenting work as [live performances]({{site.baseurl}}/performances).
+I do research relating to the use of the whole body in interaction with computers. A lot of the time this involves building systems to test out ideas, and studying how these systems work in real world settings with users. For example I have been involved in building [computerised fairground rides]({{site.baseurl}}/projects/Rides/index.html), several [physical game systems]({{site.baseurl}}/games/), and presenting work as [live performances]({{site.baseurl}}/performances/).
 
-See the [projects]({{site.baseurl}}/projects) section for a thematic breakdown of work I have done.
+See the [projects]({{site.baseurl}}/projects/) section for a thematic breakdown of work I have done.
 
 You can contact me on:
 <table border="0">
@@ -33,9 +33,9 @@ This page contains a text based list of publications, performances and project w
 A formal CV is also available as a [two page PDF]({{ site.baseurl }}/uploads/2017/01/cv-2pg-20170113.pdf) with selected publications (last updated Jan 2017). Check out [Google Scholar](https://scholar.google.co.uk/citations?user=2tMhmgIAAAAJ&hl=en&oi=ao) for a full publications list. 
 
 
-## Selected Peer Reviewed Publications
+## Peer Reviewed Publications
 
-{% assign mainposts = (site.categories["Publications"]| where: "layout" , "post") %}
+{% assign mainposts = site.categories["Publications"]| where: "layout" , "post" %}
 {% for post in mainposts %}
 {% assign citationlen = post.citation | size %}
 {% assign pdflen = post.pdflink | size %}
@@ -47,7 +47,7 @@ A formal CV is also available as a [two page PDF]({{ site.baseurl }}/uploads/201
 
 ## Presentations, Performances and Media
 
-{% assign mainposts = (site.categories["Performances"]| where: "layout" , "post") %}
+{% assign mainposts = site.categories["Performances"]| where: "layout" , "post" %}
 {% for post in mainposts %}
 {% assign citationlen = post.citation | size %}
 {% if citationlen > 0 %}

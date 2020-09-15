@@ -22,5 +22,5 @@ This was run at the [(re)Actor3 conference](http://www.digitalliveart.co.uk) on 
 
 The [(re)Actor3 proposal]({{ site.baseurl }}/uploads/2008/11/movementpoems1.doc)describing the work in detail is available.
 
-To find out more, see the [I seek the nerves](?cat=7) project.
+To find out more, see the posts below.
 

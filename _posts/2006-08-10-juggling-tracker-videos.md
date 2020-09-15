@@ -10,7 +10,7 @@ image: /uploads/2006/08/trackervideo.jpg
 tags: []
 ---
 [![]({{ site.baseurl }}/uploads/2006/08/trackervideo.jpg "Juggling Tracker video demo")]({{ site.baseurl }}/uploads/2006/08/trackervideo.jpg)
-I've done several videos for various things where I needed to show off the [juggling tracker]({{ site.baseurl }}{% post_url 2006-06-28-juggling-tracker %}), here are a couple of them.
+I've done several videos for various things where I needed to show off the [juggling tracker]({% post_url 2006-06-28-juggling-tracker %}), here are a couple of them.
 
 **The First Demo**
 This is the first ever demo video I made. It demos very simply what it does, and some weirdy effects I made using it.

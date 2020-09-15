@@ -12,7 +12,7 @@ pdflink: /uploads/2013/05/coldswim-altchi-v6-final.pdf
 citation: Joe Marshall, Paul Tennent, 2013. **Mobile interaction does not exist**. *CHI '13 Extended Abstracts on Human Factors in Computing Systems*, ACM, New York, NY, USA.
 
 ---
-I presented a paper at [alt.chi](http://altchi.org/‎) 2013 on my ideas for interaction in motion. [Alt.chi](http://altchi.org/‎) is a special venue at the biggest conference in human computer interaction research ([ACM SIGCHI Conference on Human Factors in Computing Systems](http://chi2013.acm.org/)), which solicits papers which challenge the conventional approach of HCI, so the paper essentially takes quite an abrasive approach and suggests that basically no current mobile systems are designed to be used while actually mobile.
+I presented a paper at alt.chi 2013 on my ideas for interaction in motion. Alt.chi is a special venue at the biggest conference in human computer interaction research ([ACM SIGCHI Conference on Human Factors in Computing Systems](http://chi2013.acm.org/)), which solicits papers which challenge the conventional approach of HCI, so the paper essentially takes quite an abrasive approach and suggests that basically no current mobile systems are designed to be used while actually mobile.
 
 As an example, I described the challenges of interaction in relation to the development of interacti.ve systems for use while swimming in cold water.
 
