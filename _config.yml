@@ -2,8 +2,8 @@
 title: Joe Marshall - Human Computer Interaction Research
 email: joe.marshall@nottingham.ac.uk
 description: Joe Marshall's website powered by Material Design Lite
-baseurl: "/~pszjm2" # the subpath of your site, e.g. /blog/
-url: "http://www.cs.nott.ac.uk" # the base hostname & protocol for your site
+baseurl: "/pszjm2" # the subpath of your site, e.g. /blog/
+url: "https://people.cs.nott.ac.uk/" # the base hostname & protocol for your site
 copyright: "&copy;Joe Marshall"
 includes_dir: _includes
 plugins_dir:  _plugins

@@ -7,11 +7,19 @@ permalink: /teaching/
 
 Here are some project ideas for undergraduate projects:
 
-## Applying inverse kinematics to flying in vr
+## GPU Shader based flying simulation
 
-Most Vr systems only track hands and head. However by using ‘inverse kinematics’ we can estimate where the rest of the body is. In this project you will build a flying game in which the estimated body shape of the player is used to control how they fly. This will require a fair bit of programming, and depending on how realistic you want to make the flying simulation, possibly a bit of engineering or maths to work out how different body shapes change the aerodynamics. There’s loads of flexibility in what you do other than that, e.g. you could make a simulation of wingsuit flying, or a game where you have to flap wings like a bird to fly, or a giant flying robot simulator, or even something completely far out like simulating swimming like a fish.
+Flying is a really fun way of moving in games; for example I've previously supervised a couple of projects where you have wings and can fly in VR. One thing that is difficult is estimating how a particular shape of wing and motion of wings will move the player. For this project, you will use GPU shaders to estimate the forces on a flying person or object to simulate e.g. wingsuit flying, or use of wings like a bird, or different shapes of paper aeroplane. I anticipate this working something like the following: 
 
-I’m open to discussion on what system to build this in, but my guess would be either unity or Godot game engines and one of our oculus quest headsets.
+1) Render the flying object shape to an offscreen depth buffer from directly below (or straight ahead, I'm not sure)
+2) Use a shader on the rendered depth buffer to calculate how much force each pixel will apply to the moving body.
+3) Apply the forces from each pixel
+
+As an advanced version of this, you might also calculate and render motion to allow for moving flight surfaces e.g. flapping wings.
+
+I'm anticipating you'll build some kind of simple game or experimental environment for this - e.g. a paper aeroplane simulator, a flappy bird simulator
+This is quite a techy
+
 
 ## It’s behind you - simulating new body parts in vr gaming
 
